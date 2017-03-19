@@ -1,32 +1,25 @@
-#ifndef CONE_H__
-#define CONE_H__
+#ifndef CUBOID_H__
+#define CUBOID_H__
 
 #include "Shape.h"
 
-/**
- * @brief      Represents a 3D Cone
- *
- * The cone is defined by two dimensions: radius and height.
- */
-class Cone : public Shape
+class Cuboid : public Shape
 {
   public:
-    Cone();
-    virtual ~Cone();
+    Cuboid();
+    virtual ~Cuboid();
 
-    /**
-     * @brief      Sets the radius.
-     *
-     * @param[in]  r     radius
-     */
-    virtual void setRadius(float r);
+    virtual void setWidth(float w);
 
-    /**
-     * @brief      Gets the radius.
-     *
-     * @return     The radius.
-     */
-    virtual float getRadius();
+
+    virtual float getWidth();
+
+
+
+    virtual void setLength(float l);
+
+
+    virtual float getLength();
 
     /**
      * @brief      Sets the height.
@@ -64,8 +57,10 @@ class Cone : public Shape
     virtual float getSurfaceArea() override;
 
   protected:
-    float radius;
+    float length;
+    float width;
     float height;
+
 };
 
-#endif /* end of include guard: CONE_H__ */
+#endif /* end of include guard: CUBOID_H__ */
