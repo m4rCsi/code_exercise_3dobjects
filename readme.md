@@ -3,9 +3,9 @@ Code Exercise in C++ for 3D Objects
 
 Intro
 =====
-- Cmake is used for the build system. 
-- Catch is used for the test framework.
-- Outputs is a static library 'lib3dObjects.a' and a 'UnitTest' executable
+- Build System: Cmake  
+- Test Framework: [Catch](https://github.com/philsquared/Catch/)
+- Outputs: static library 'lib3dObjects.a' and a 'UnitTest' executable
 - Tested on:
 
 ```
