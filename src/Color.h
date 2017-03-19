@@ -41,7 +41,24 @@ struct Color {
   Color() : Color(0, 0, 0) {}
 };
 
+/**
+ * @brief      Equality operator for Color struct
+ *
+ * @param[in]  lhs   The left hand side
+ * @param[in]  rhs   The right hand side
+ *
+ * @return     if equal
+ */
 bool operator==(const Color& lhs, const Color& rhs);
+
+/**
+ * @brief      Inequality operator for Color struct
+ *
+ * @param[in]  lhs   The left hand side
+ * @param[in]  rhs   The right hand side
+ *
+ * @return     if unequal
+ */
 bool operator!=(const Color& lhs, const Color& rhs);
 
 #endif /* end of include guard: COLOR_H__ */

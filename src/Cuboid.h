@@ -9,16 +9,32 @@ class Cuboid : public Shape
     Cuboid();
     virtual ~Cuboid();
 
+    /**
+     * @brief      Sets the width.
+     *
+     * @param[in]  w     the width
+     */
     virtual void setWidth(float w);
 
-
+    /**
+     * @brief      Gets the width.
+     *
+     * @return     The width.
+     */
     virtual float getWidth();
 
-
-
+    /**
+     * @brief      Sets the length.
+     *
+     * @param[in]  l the length
+     */
     virtual void setLength(float l);
 
-
+    /**
+     * @brief      Gets the length.
+     *
+     * @return     The length.
+     */
     virtual float getLength();
 
     /**

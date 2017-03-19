@@ -3,5 +3,8 @@ add_executable(Test
 				main.cpp 
 				Cone.cpp
 				Cuboid.cpp
-				Color.cpp)
+				Sphere.cpp
+				Color.cpp
+				ShapeFactory.cpp)
+
 target_link_libraries(Test XPI)
