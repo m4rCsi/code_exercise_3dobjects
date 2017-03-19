@@ -1,16 +1,50 @@
-Requirements
+Code Exercise in C++ for 3D Objects
+===================================
+
+Intro
+=====
+- Cmake is used for the build system. 
+- Catch is used for the test framework.
+- Outputs is a static library 'lib3dObjects.a' and a 'UnitTest' executable
+- Tested on:
+
+```
+› dmesg | head -1
+[    0.000000] Linux version 4.10.1-1-ARCH (builduser@heftig-13232) (gcc version 6.3.1 20170109 (GCC) ) #1 SMP PREEMPT Sun Feb 26 21:08:53 UTC 2017
+
+› cmake --version
+cmake version 3.7.2
+
+CMake suite maintained and supported by Kitware (kitware.com/cmake).
+
+› c++ --version
+c++ (GCC) 6.3.1 20170306
+Copyright (C) 2016 Free Software Foundation, Inc.
+This is free software; see the source for copying conditions.  There is NO
+warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+
+```
+
+
+Build & Test
 ============
+
+Requirements
+--------
 Cmake
 
 Building
-========
+--------
+To build and test:
 
 ```
-	mkdir build
-	cmake ../
-	make
-	test/Test
+mkdir build
+cmake ../
+make
+test/Test
 ```
+
+Expected output:
 
 ```
 in build/ on master 
@@ -62,4 +96,3 @@ in build/ on master
 All tests passed (69 assertions in 13 test cases)
 
 ```
-
