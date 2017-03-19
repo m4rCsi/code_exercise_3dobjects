@@ -1,5 +1,5 @@
 include_directories(../src)
-add_executable(Test 
+add_executable(UnitTest 
 				main.cpp 
 				Cone.cpp
 				Cuboid.cpp
@@ -7,4 +7,4 @@ add_executable(Test
 				Color.cpp
 				ShapeFactory.cpp)
 
-target_link_libraries(Test XPI)
+target_link_libraries(UnitTest 3dObjects)

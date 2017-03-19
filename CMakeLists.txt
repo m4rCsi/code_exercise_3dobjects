@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.7)
-project (XPI)
+project (CodeExercise3DObject)
 add_subdirectory (src) 
 add_subdirectory (test)
 enable_testing ()
-add_test (NAME XPITest COMMAND Test)
+add_test (NAME UnitTest COMMAND Test)

@@ -1,4 +1,4 @@
-add_library (XPI 
+add_library (3dObjects
 	Color.cpp
 	Shape.cpp
 	Cone.cpp
